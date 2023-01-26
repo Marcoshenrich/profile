@@ -1257,6 +1257,15 @@ a.image {
     -ms-transform: scale(1.075);
     transform: scale(1.075); }
 
+
+
+#artwork {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+
 /* List */
 ol {
   list-style: decimal;
