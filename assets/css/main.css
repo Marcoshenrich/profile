@@ -1265,6 +1265,18 @@ a.image {
   object-fit: cover;
 }
 
+#vertphoto {
+  height: 600px;
+  width: 400px;
+  object-fit: cover;
+}
+
+#horiphoto {
+  height: 400px;
+  width: 600px;
+  object-fit: cover;
+}
+
 
 /* List */
 ol {
