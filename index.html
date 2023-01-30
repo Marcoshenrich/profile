@@ -58,7 +58,7 @@
 											<span class="icon solid fa-users"></span>
 											<div class="content">
 												<h3>People-First Approach</h3>
-												<p>I know people and what they need. I am able to work with people of all backgrounds, and more importantly, I can get them to work with each other.</p>
+												<p>I know people and what they need. I can work with people of all backgrounds, and more importantly, I can get them to work with each other.</p>
 											</div>
 										</article>
 										<article>
@@ -86,7 +86,7 @@
 								</section>
 
 								<section>
-									<header class="major">
+									<header class="major" id="background-section">
 										<h2>Background and Resume</h2>
 									</header>
 
@@ -152,10 +152,10 @@
 
 							<!-- Search -->
 								<section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
+
 								</section>
+
+								
 
 							<!-- Menu -->
 								<nav id="menu">
@@ -164,19 +164,10 @@
 									</header>
 									<ul>
 										<li><a href="index.html">Homepage</a></li>
+										<li><a onclick="scrollToView()">Background and Resume</a></li>
 										<li><a href="art.html">Art</a></li>
-										<li><a href="elements.html">Photography</a></li>
+										<li><a href="photography.html">Photography</a></li>
 										<li><a href="elements.html">Getting a PMP</a></li>
-										<li><a href="elements.html">Elements</a></li>
-										<li>
-											<span class="opener">Submenu</span>
-											<ul>
-												<li><a href="#">Lorem Dolor</a></li>
-												<li><a href="#">Ipsum Adipiscing</a></li>
-												<li><a href="#">Tempus Magna</a></li>
-												<li><a href="#">Feugiat Veroeros</a></li>
-											</ul>
-										</li>
 									</ul>
 								</nav>
 
@@ -185,9 +176,9 @@
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Get in touch</h2>
+										<h2>Get in Touch</h2>
 									</header>
-									<p>Reach out to connect. Happy to answer any questions or just chat about our journeys. I love meeting new people and learning how you became who you are today.</p>
+									<p>Reach out to connect. Happy to answer any questions or just chat about our journeys. <br/>I love meeting new people and learning how you became who you are today.</p>
 									<ul class="contact">
 										<a target="_blank" href="https://www.linkedin.com/in/marcos-henrich-794226108/"><li class="icon brands fa-linkedin">LinkedIn</li></a>
 										<li class="icon solid fa-envelope">jmarcoshenrich@gmail.com</li>
@@ -212,6 +203,17 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+				function scrollToView() {
+					let e = document.getElementById("background-section");
+					e.scrollIntoView({
+						block: 'start',
+						behavior: 'smooth',
+						inline: 'start'
+					});
+				}
+			</script>
 
 	</body>
 </html>

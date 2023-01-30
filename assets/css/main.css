@@ -1266,14 +1266,14 @@ a.image {
 }
 
 #vertphoto {
-  height: 600px;
-  width: 400px;
+  height: 720px;
+  width: 480px;
   object-fit: cover;
 }
 
 #horiphoto {
-  height: 400px;
-  width: 600px;
+  height: 480px;
+  width: 720px;
   object-fit: cover;
 }
 
