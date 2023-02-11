@@ -60,6 +60,28 @@ input, select, textarea {
   -ms-appearance: none;
   appearance: none; }
 
+
+
+.resume-container {
+
+  height: 440px;
+  width: 340px;
+  margin-bottom: 40px;
+  border: 1px solid black;
+}
+
+.resume-container:hover {
+  filter: opacity(80%);
+  filter: invert(5%);
+  border: 2px solid gray;
+}
+
+
+.resume-container a {
+  border-bottom: none;
+}
+
+
 /* Basic */
 @-ms-viewport {
   width: device-width; }
